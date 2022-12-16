@@ -36,10 +36,16 @@
 <form:form modelAttribute="u" method="POST" action="../editok">
   <form:hidden path="seq"/>
   <table id="edit">
-    <tr><td>카테고리</td><td><input type="text" name="category"/></td></tr>
-    <tr><td>제목</td><td><input type="text" name="title"/></td></tr>
-    <tr><td>글쓴이</td><td><input type="text" name="writer"/></td></tr>
-    <tr><td>내용</td><td><textarea col="50" row="5" name="content"></textarea></td></tr>
+    <tr><td>메이커</td><td><input type="text" name="maker"/></td></tr>
+    <tr><td>모델명</td><td><input type="text" name="model"/></td></tr>
+    <tr><td>사이즈</td><td><select name="size"><option value="90">90</option><option value="95"></option><option value="100">100</option><option value="105">105</option><option value="110">110</option></select></td></tr>
+    <tr><td>갯수</td><td><input type="number" name="price"/></td></tr>
+    <tr><td>가격</td><td><input type="number" name="price"/></td></tr>
+    <tr><td>사용가능한 쿠폰</td>
+      <td><input type="radio" name="coupon" value="0%"/>0%<input type="radio" name="coupon" value="5%"/>5%<input type="radio" name="coupon" value="10%"/>10%<input type="radio" name="coupon" value="15%"/>15%</td></tr>
+    <tr><td>색상</td><td><input type="color" name="color" value="#ffffff"/></td></tr>
+    <tr><td>판매량</td><td><input type="number" name="sales"/></td></tr>
+    <tr><td>설명</td><td><textarea col="50" row="5" name="text"></textarea></td></tr>
   </table>
   <input type="submit" value="수정하기"/>
   <input type="button" value="취소하기" onclick="history.back()"/>

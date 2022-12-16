@@ -9,35 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c3168ae-6c6b-410a-bd1f-caf67dc67a1e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/user/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/user/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/user/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/user/UserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/util/LoginCheckInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/post.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/mappers/board-mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/mappers/user-mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9c3168ae-6c6b-410a-bd1f-caf67dc67a1e" name="Changes" comment="time is running out">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/board/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/board/BoardController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/board/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/board/BoardDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/board/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/board/BoardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/board/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/board/BoardServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/board/BoardVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/board/BoardVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/board/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/board/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpostform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpostform.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editform.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/mappers/board-mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/mappers/board-mapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +198,21 @@
       <workItem from="1670570920986" duration="61000" />
       <workItem from="1670571059540" duration="2460000" />
       <workItem from="1670573530160" duration="22137000" />
+      <workItem from="1670653935012" duration="321000" />
+      <workItem from="1671091775560" duration="571000" />
+      <workItem from="1671193820909" duration="9000" />
+      <workItem from="1671193842271" duration="6000" />
+      <workItem from="1671193860246" duration="5000" />
+      <workItem from="1671193981284" duration="7239000" />
     </task>
+    <task id="LOCAL-00001" summary="time is running out">
+      <created>1670654126915</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670654126915</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +228,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="time is running out" />
+    <option name="LAST_COMMIT_MESSAGE" value="time is running out" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

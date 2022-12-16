@@ -37,11 +37,15 @@ public class BoardDAO {
 		public BoardVO mapRow(ResultSet rs, int rowNum) throws SQLException {
 			BoardVO vo=new BoardVO();
 			vo.setSeq(rs.getInt("seq"));
-			vo.setTitle(rs.getString("title"));
-			vo.setContent(rs.getString("content"));
-			vo.setWriter(rs.getString("writer"));
-			vo.setCategory(rs.getString("category"));
-			vo.setRegdate(rs.getDate("regdate"));
+			vo.setSize(rs.getString("size"));
+			vo.setMaker(rs.getString("maker"));
+			vo.setColor(rs.getString("color"));
+			vo.setNumber(rs.getInt("number"));
+			vo.setCoupon(rs.getString("coupon"));
+			vo.setModel(rs.getString("model"));
+			vo.setSales(rs.getInt("sales"));
+			vo.setPrice(rs.getInt("price"));
+			vo.setText(rs.getString("text"));
 			return vo;
 		}
 	}

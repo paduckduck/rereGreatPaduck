@@ -12,7 +12,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>자유게시판</title>
+    <title>신발등록</title>
     <style>
         #list {
             font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -36,14 +36,19 @@
     </style>
 </head>
 <body>
-<h1>자유게시판</h1>
+<h1>신발등록</h1>
 <table id="list" width="90%">
     <tr>
         <th>Id</th>
-        <th>Category</th>
-        <th>Title</th>
-        <th>Writer</th>
-        <th>Content</th>
+        <th>maker</th>
+        <th>model</th>
+        <th>size</th>
+        <th>number</th>
+        <th>price</th>
+        <th>coupon</th>
+        <th>color</th>
+        <th>누적판매량</th>
+        <th>설명</th>
         <th>Regdate</th>
         <th>Edit</th>
         <th>Delete</th>
@@ -51,16 +56,21 @@
     <c:forEach items="${list}" var="u">
         <tr>
             <td>${u.seq}</td>
-            <td>${u.category}</td>
-            <td>${u.title}</td>
-            <td>${u.writer}</td>
-            <td>${u.content}</td>
+            <td>${u.maker}</td>
+            <td>${u.model}</td>
+            <td>${u.size}</td>
+            <td>${u.number}</td>
+            <td>${u.price}</td>
+            <td>${u.coupon}</td>
+            <td>${u.color}</td>
+            <td>${u.sales}</td>
+            <td>${u.text}</td>
             <td>${u.regdate}</td>
             <td><a href="editform/${u.seq}">Edit</a></td>
             <td><a href="deleteok/${u.seq}">Delete</a></td>
         </tr>
     </c:forEach>
 </table>
-<br/><button type="button" onclick="location.href='add'">Add New Post</button>
+<br/><button type="button" onclick="location.href='add'">새 신발 등록하기</button>
 </body>
 </html>
